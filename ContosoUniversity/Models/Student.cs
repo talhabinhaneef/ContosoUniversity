@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace ContosoUniversity.Models
 {
-    public class Student
+    public class Student : Person
     {
         public int ID { get; set; }
         [Required]
